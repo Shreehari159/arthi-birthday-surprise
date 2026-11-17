@@ -1,0 +1,13 @@
+{
+  "name": "birthday-surprise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Birthday Surprise for Arthi - Complete Interactive Web Experience",
+  "scripts": {
+    "start": "node run.js",
+    "dev": "node run.js",
+    "build": "npm --prefix frontend run build",
+    "frontend": "npm --prefix frontend run dev",
+    "backend": "npm --prefix backend run start"
+  }
+}
